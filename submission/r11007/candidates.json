@@ -1,0 +1,64 @@
+{
+ "candidates": [
+  {
+   "image": "000000007278",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection fire hydrant, panoptic person",
+   "score": 1.0
+  },
+  {
+   "image": "000000008211",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection motorcycle, panoptic bicycle",
+   "score": 1.0
+  },
+  {
+   "image": "000000008277",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection bowl, panoptic broccoli",
+   "score": 1.0
+  },
+  {
+   "image": "000000009769",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection truck, panoptic person",
+   "score": 1.0
+  },
+  {
+   "image": "000000012576",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection dining table, panoptic cup",
+   "score": 1.0
+  },
+  {
+   "image": "000000014473",
+   "guess": "missing_box",
+   "reason": "segment train 43223px không có box",
+   "score": 1.0
+  },
+  {
+   "image": "000000016598",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection tie, panoptic zebra",
+   "score": 1.0
+  },
+  {
+   "image": "000000025386",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection chair, panoptic couch",
+   "score": 1.0
+  },
+  {
+   "image": "000000001818",
+   "guess": "bbox_drift",
+   "reason": "box zebra để 29% pixel segment ra ngoài",
+   "score": 0.286
+  },
+  {
+   "image": "000000002532",
+   "guess": "missing_box",
+   "reason": "segment person 5321px không có box",
+   "score": 0.2661
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+image,type,verdict,note
+000000014473,missing_box,confirmed,"đoàn tàu mô hình đầu đỏ Virgin chiếm phần lớn ảnh, panoptic có segment train nhưng detection chỉ có các box person nhỏ, thiếu box train"

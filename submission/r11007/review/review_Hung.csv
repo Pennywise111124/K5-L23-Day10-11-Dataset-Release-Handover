@@ -1,0 +1,3 @@
+image,type,verdict,note
+000000008277,class_swap,rejected,"hộp nhựa đen đựng bông cải: box bowl bao quanh các box broccoli, panoptic có cả bowl lẫn broccoli; đây là chứa vật, không phải lỗi gán nhãn"
+000000001818,bbox_drift,confirmed," thân ngựa vằn kéo tới mép trái ảnh nhưng box zebra bắt đầu từ khoảng 28% bề ngang, cắt mất phần thân và chân bên trái, nên box lệch khỏi vật"

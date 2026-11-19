@@ -1,0 +1,3 @@
+image,type,verdict,note
+000000007278,class_swap,confirmed,"người lướt sóng đang lộn trên sóng, panoptic ghi person đúng; box detection ghi fire hydrant (vô lý với vật thể) nên detection sai"
+000000016598,category_swap,confirmed," vật là cà vạt tối màu trên áo sơ mi của người phụ nữ: detection ghi tie đúng, panoptic ghi zebra sai"

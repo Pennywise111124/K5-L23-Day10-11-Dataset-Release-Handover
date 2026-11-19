@@ -1,0 +1,2 @@
+image,type,verdict,note
+000000012576,class_swap,rejected,"bàn ăn có pizza và ly: box dining table bao quanh các box cup, panoptic ghi cup cho từng ly; trùng vị trí do chứa nhau tự nhiên, không phải gán nhầm lớp"

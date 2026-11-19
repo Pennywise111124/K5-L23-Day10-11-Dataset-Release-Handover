@@ -1,0 +1,3 @@
+image,type,verdict,note
+000000008211,class_swap,confirmed,"sau lưng người ngồi có xe đạp nhỏ với giỏ lưới và ghi đông, panoptic ghi bicycle đúng; detection ghi motorcycle sai (độ chắc chắn vừa phải vì vật nhỏ, bị che)"
+000000025386,category_swap,confirmed,"ghế tàu điện sọc xanh ở mép phải ảnh: detection ghi chair, panoptic ghi couch; các ghế cùng kiểu trong toa đều là chair nên panoptic sai (độ chắc chắn vừa phải)"

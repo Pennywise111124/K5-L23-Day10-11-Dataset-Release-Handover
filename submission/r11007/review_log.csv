@@ -1,0 +1,11 @@
+image,type,verdict,note
+000000001818,bbox_drift,confirmed,"thân ngựa vằn kéo tới mép trái ảnh nhưng box zebra bắt đầu từ khoảng 28% bề ngang, cắt mất phần thân và chân bên trái, nên box lệch khỏi vật"
+000000002532,missing_box,confirmed,"người đứng quay lưng giữa nền tuyết, panoptic có segment person rõ ràng nhưng detection chỉ có box skis, thiếu box person"
+000000007278,class_swap,confirmed,"người lướt sóng đang lộn trên sóng, panoptic ghi person đúng; box detection ghi fire hydrant (vô lý với vật thể) nên detection sai"
+000000008211,class_swap,confirmed,"sau lưng người ngồi có xe đạp nhỏ với giỏ lưới và ghi đông, panoptic ghi bicycle đúng; detection ghi motorcycle sai (độ chắc chắn vừa phải vì vật nhỏ, bị che)"
+000000008277,class_swap,rejected,"hộp nhựa đen đựng bông cải: box bowl bao quanh các box broccoli, panoptic có cả bowl lẫn broccoli; đây là chứa vật, không phải lỗi gán nhãn"
+000000009769,class_swap,rejected,"xe tải đỏ gắn lưỡi cày tuyết có box truck đúng, panoptic cũng ghi truck; các box person nằm trong thùng xe và cabin, nên là chứa nhau tự nhiên, không phải lỗi"
+000000012576,class_swap,rejected,"bàn ăn có pizza và ly: box dining table bao quanh các box cup, panoptic ghi cup cho từng ly; trùng vị trí do chứa nhau tự nhiên, không phải gán nhầm lớp"
+000000014473,missing_box,confirmed,"đoàn tàu mô hình đầu đỏ Virgin chiếm phần lớn ảnh, panoptic có segment train nhưng detection chỉ có các box person nhỏ, thiếu box train"
+000000016598,category_swap,confirmed,"vật là cà vạt tối màu trên áo sơ mi của người phụ nữ: detection ghi tie đúng, panoptic ghi zebra sai"
+000000025386,category_swap,confirmed,"ghế tàu điện sọc xanh ở mép phải ảnh: detection ghi chair, panoptic ghi couch; các ghế cùng kiểu trong toa đều là chair nên panoptic sai (độ chắc chắn vừa phải)"
