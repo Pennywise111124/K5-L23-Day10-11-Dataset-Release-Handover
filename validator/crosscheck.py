@@ -16,6 +16,9 @@ else:
     from common import Delivery, mask_ids
 
 # ponytail: ngưỡng đo trên lô sạch. Siết nếu hàng đợi sạch vượt vài chục ảnh.
+# MIN_SEG bỏ segment thing quá nhỏ; MIN_MISSING yêu cầu segment không box đủ lớn.
+# IN_MATCH: cùng chỗ lệch lớp. IN_DRIFT: cùng lớp nhưng pixel nằm ngoài box.
+# IN_MERGE và IN_ONLY: một segment nằm trong hai box cùng lớp.
 MIN_SEG = 800
 MIN_MISSING = 3500
 IN_MATCH = 0.55
