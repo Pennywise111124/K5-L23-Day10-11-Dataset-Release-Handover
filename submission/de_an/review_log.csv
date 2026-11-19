@@ -1,0 +1,9 @@
+image,type,verdict,note
+img_0003,class_swap,rejected," khán đài sân bóng chày đông người, hàng ghế bậc thang vừa giống bench vừa giống chair: detection ghi bench, panoptic ghi chair đều hợp lý, lệch tự nhiên do chỗ ngồi mơ hồ"
+img_0138,category_swap,confirmed," xe buýt thành phố màu đỏ bạc có số 7125 và cửa sổ lớn: detection ghi bus đúng, segment panoptic phủ thân xe lại ghi car nên panoptic sai"
+img_0155,instance_merge,confirmed," chiếc bánh cuốn sandwich cắt làm hai nửa, detection có hai box sandwich riêng nhưng panoptic chỉ có một segment sandwich phủ cả hai nửa nên hai vật bị gộp (độ chắc chắn vừa phải)"
+img_0164,class_swap,confirmed," chiếc cupcake sô cô la có hạt cốm màu trong vỏ giấy: panoptic ghi cake hợp lý, detection ghi donut là sai nên đây là lỗi nhãn detection"
+img_0180,class_swap,confirmed," đuôi chiếc xe sedan bạc có đèn hậu và biển số ở giữa ảnh đêm: panoptic ghi car đúng, box detection ghi bus là sai"
+img_0192,class_swap,confirmed," chân dung cô gái cầm điện thoại thông minh tím bóng ở góc dưới: panoptic ghi cell phone đúng, detection ghi remote sai"
+img_0202,class_swap,rejected," chú chó trắng đứng trên ghế băng gỗ: box bench to bao quanh cả box dog, panoptic ghi dog cho vùng chó; trùng vị trí do bao nhau tự nhiên, box dog vẫn đúng nên không phải lỗi"
+img_0235,bbox_drift,confirmed," hình mèo đen vẽ stencil trên tường trắng: segment cat có tai và chân trước giơ lên từ cao hơn, nhưng box cat bắt đầu thấp hơn và lệch xuống nên bỏ sót phần trên của vật"

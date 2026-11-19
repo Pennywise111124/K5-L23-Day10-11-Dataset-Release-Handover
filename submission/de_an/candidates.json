@@ -1,0 +1,52 @@
+{
+ "candidates": [
+  {
+   "image": "img_0003",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection bench, panoptic chair",
+   "score": 1.0
+  },
+  {
+   "image": "img_0138",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection bus, panoptic car",
+   "score": 1.0
+  },
+  {
+   "image": "img_0164",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection donut, panoptic cake",
+   "score": 1.0
+  },
+  {
+   "image": "img_0180",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection bus, panoptic car",
+   "score": 1.0
+  },
+  {
+   "image": "img_0192",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection remote, panoptic cell phone",
+   "score": 1.0
+  },
+  {
+   "image": "img_0202",
+   "guess": "class_swap",
+   "reason": "cùng chỗ, detection bench, panoptic dog",
+   "score": 1.0
+  },
+  {
+   "image": "img_0155",
+   "guess": "instance_merge",
+   "reason": "pixel segment sandwich nằm trong hai box cùng lớp",
+   "score": 0.6689
+  },
+  {
+   "image": "img_0235",
+   "guess": "bbox_drift",
+   "reason": "box cat để 44% pixel segment ra ngoài",
+   "score": 0.4391
+  }
+ ]
+}
