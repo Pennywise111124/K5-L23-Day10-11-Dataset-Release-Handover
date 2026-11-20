@@ -6,7 +6,6 @@ from common import Delivery, segment_counts
 
 AREA_TOL = 0.02  # cho phep area lon hon pixel that toi da 2% (sai so nen/lam tron)
 
-
 def check(d: Delivery) -> list[dict]:
     errors = []
     for stem in d.stems():
